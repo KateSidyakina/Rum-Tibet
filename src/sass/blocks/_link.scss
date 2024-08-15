@@ -1,0 +1,28 @@
+.link {
+  display: block;
+
+  width: max-content;
+  padding: 15px 35px;
+
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: $white;
+  background-color: $primary;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $primary-hover;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 13px 33px;
+  }
+
+  @media (max-width: 576px) {
+    padding: 12px 29px;
+  }
+}

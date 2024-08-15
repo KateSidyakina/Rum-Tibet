@@ -1,0 +1,38 @@
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.socials__link_telegram:hover > svg > path {
+  fill: $telegram-color;
+}
+
+.socials__link_vk:hover>svg>path {
+  fill: $vk-color;
+}
+
+.socials__link_pinterest:hover>svg>path {
+  fill: $pinterest-color;
+}
+
+.socials__link_skype:hover>svg>path {
+  fill: $skype-color;
+}
+
+.socials__image {
+  width: 32px;
+  height: 32px;
+
+  @media (max-width: 1200px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.socials__image > path {
+  transition: 0.2s;
+}
